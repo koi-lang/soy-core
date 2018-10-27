@@ -1,0 +1,1 @@
+native fun input(text: str, limit: int) -> str
