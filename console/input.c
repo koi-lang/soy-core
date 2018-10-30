@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+#ifndef INPUT_EXISTS
 char* input(char text[], int length) {
     printf("%s", text);
 
@@ -8,3 +9,5 @@ char* input(char text[], int length) {
 
     return str;
 }
+#define INPUT_EXISTS
+#endif
