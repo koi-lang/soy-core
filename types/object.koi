@@ -1,0 +1,47 @@
+class Object {
+    init {
+        var type: str = "object"
+    }
+	
+	constructor() { }
+
+    # Convert methods
+
+    meth fun toInteger() -> int {
+        return 0
+    }
+
+    meth fun toBoolean() -> bool {
+        return false
+    }
+
+    meth fun toString() -> str {
+        return ""
+    }
+
+    # Comparison methods
+
+    meth fun equalTo(other: Object) -> bool {
+		return false
+    }
+
+    meth fun notEqualTo(other: Object) -> bool {
+		return false
+    }
+
+    meth fun lessThan(other: Object) -> bool {
+		return false
+    }
+
+    meth fun lessThanOrEqualTo(other: Object) -> bool {
+		return false
+    }
+
+    meth fun moreThan(other: Object) -> bool {
+		return false
+    }
+
+    meth fun moreThanOrEqualTo(other: Object) -> bool {
+		return false
+    }
+}
