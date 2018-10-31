@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #ifndef INT_TO_STR_EXISTS
 char* int_to_str(int number) {
 	static char buffer[1024];

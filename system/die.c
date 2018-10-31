@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 #ifndef DIE_EXISTS
 void die() {
     exit(0);
